@@ -7,11 +7,15 @@ import plotly.graph_objects as go
 from nrclex import NRCLex                      # nuanced emotion lexicon
 import text2emotion as te                      # coarse five‑emotion set
 
-import nltk                                    # ensure tokenizers exist
+import nltk
 nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
 nltk.download("wordnet", quiet=True)
 nltk.download("omw-1.4", quiet=True)
+nltk.download("averaged_perceptron_tagger")
+nltk.download("brown")
+nltk.download("movie_reviews")
+nltk.download("vader_lexicon")
 
 import warnings
 warnings.filterwarnings("ignore", category=SyntaxWarning)
