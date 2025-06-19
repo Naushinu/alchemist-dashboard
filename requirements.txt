@@ -1,0 +1,17 @@
+# Requirements for this project
+
+# Core packages
+streamlit==1.35.0          # For interactive dashboard UI
+pandas==2.2.2              # Data manipulation and analysis
+numpy==1.26.4              # Numerical operations
+matplotlib==3.9.0          # Static visualizations
+seaborn==0.13.2            # Statistical visualizations
+plotly==5.22.0             # Interactive charts & maps
+
+# Natural Language Processing
+nltk==3.8.1                # Tokenization, stopwords, etc.
+text2emotion==0.0.6        # Coarse emotion detection (happy, sad, fear, etc.)
+nrclex==4.0                # NRC Emotion Lexicon (fine-grained emotions)
+
+# Other
+openpyxl==3.1.2            # Excel I/O if needed for reading/writing .xlsx
