@@ -12,6 +12,7 @@ plotly             # Interactive charts & maps
 nltk               # Tokenization, stopwords, etc.
 text2emotion       # Coarse emotion detection (happy, sad, fear, etc.)
 nrclex             # NRC Emotion Lexicon (fine-grained emotions)
+emoji==1.6.3       # Required for text2emotion compatibility
 
 # Other
 openpyxl           # Excel I/O if needed for reading/writing .xlsx
